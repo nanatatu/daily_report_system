@@ -20,7 +20,7 @@ import javax.persistence.Table;
             ),
     //従業員情報の全件数を取得
     @NamedQuery(
-            name = "getEmployeeCount",
+            name = "getEmployeesCount",
             query = "SELECT COUNT(e) FROM Employee AS e"
             ),
     //社員番号の有無を調査
